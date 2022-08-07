@@ -80,16 +80,25 @@ tim_berners_lee = Programmer(
     famous_for="World Wide Web"
 )
 
+xexe_doBBB = Programmer(
+    first_name="Xexe",
+    last_name="do BBB",
+    gender="F",
+    nationality="Brasileira",
+    famous_for="Criou o programa da balada"
+)
+
 # add each instance of our programmers to our session
-# session.add(ada_lovelace)
-# session.add(alan_turing)
-# session.add(grace_hopper)
-# session.add(margaret_hamilton)
-# session.add(bill_gates)
-# session.add(tim_berners_lee)
+session.add(ada_lovelace)
+session.add(alan_turing)
+session.add(grace_hopper)
+session.add(margaret_hamilton)
+session.add(bill_gates)
+session.add(tim_berners_lee)
+session.add(xexe_doBBB)
 
 # commit our session to the database
-# session.commit()
+session.commit()
 
 
 # query the database to find all Programmers
